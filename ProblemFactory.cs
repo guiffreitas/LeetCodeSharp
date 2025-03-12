@@ -8,13 +8,15 @@ namespace LeetCodeSharp
     {
         public static IProblem Create(ProblemCatalog problem)
         {
-            switch (problem)
+            return problem switch
             {
-                case ProblemCatalog.P88_MergeSortedArray:
-                    return new P88_MergeSortedArray();
-                default:
-                    throw new NotImplementedException();
-            }
+
+                ProblemCatalog.P28_FindIndexFirstOccurrenceString => new P28_FindIndexFirstOccurrenceString(),
+
+                ProblemCatalog.P88_MergeSortedArray => new P88_MergeSortedArray(),
+
+                _ => throw new NotImplementedException(),
+            };
         }
     }
 }
