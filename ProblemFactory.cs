@@ -10,8 +10,11 @@ namespace LeetCodeSharp
         {
             return problem switch
             {
+                ProblemCatalog.P27_RemoveElement => new P27_RemoveElement(),
 
                 ProblemCatalog.P28_FindIndexFirstOccurrenceString => new P28_FindIndexFirstOccurrenceString(),
+
+                ProblemCatalog.P68_TextJustification => new P68_TextJustification(),
 
                 ProblemCatalog.P88_MergeSortedArray => new P88_MergeSortedArray(),
 
