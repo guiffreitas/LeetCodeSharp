@@ -1,6 +1,6 @@
 ﻿using LeetCodeSharp;
 using LeetCodeSharp.Enums;
 
-var problem = ProblemFactory.Create(ProblemCatalog.P88_MergeSortedArray);
+var problem = ProblemFactory.Create(ProblemCatalog.P125_ValidPalindrome);
 
 problem.Run();

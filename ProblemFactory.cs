@@ -18,6 +18,8 @@ namespace LeetCodeSharp
 
                 ProblemCatalog.P88_MergeSortedArray => new P88_MergeSortedArray(),
 
+                ProblemCatalog.P125_ValidPalindrome => new P125_ValidPalindrome(),
+
                 _ => throw new NotImplementedException(),
             };
         }

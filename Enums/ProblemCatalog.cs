@@ -6,5 +6,6 @@
         P28_FindIndexFirstOccurrenceString,
         P68_TextJustification,
         P88_MergeSortedArray,
+        P125_ValidPalindrome,
     }
 }
