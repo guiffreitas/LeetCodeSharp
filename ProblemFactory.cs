@@ -20,6 +20,8 @@ namespace LeetCodeSharp
 
                 ProblemCatalog.P125_ValidPalindrome => new P125_ValidPalindrome(),
 
+                ProblemCatalog.P392_IsSubsequence => new P392_IsSubsequence(),
+
                 _ => throw new NotImplementedException(),
             };
         }
