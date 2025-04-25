@@ -10,6 +10,10 @@ namespace LeetCodeSharp
         {
             return problem switch
             {
+                ProblemCatalog.P1_TwoSum => new P1_TwoSum(),
+
+                ProblemCatalog.P11_ContainerWithMostWater => new P11_ContainerWithMostWater(),
+
                 ProblemCatalog.P27_RemoveElement => new P27_RemoveElement(),
 
                 ProblemCatalog.P28_FindIndexFirstOccurrenceString => new P28_FindIndexFirstOccurrenceString(),
