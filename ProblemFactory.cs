@@ -14,6 +14,8 @@ namespace LeetCodeSharp
 
                 ProblemCatalog.P11_ContainerWithMostWater => new P11_ContainerWithMostWater(),
 
+                ProblemCatalog.P15_ThreeSum => new P15_ThreeSum(),
+
                 ProblemCatalog.P27_RemoveElement => new P27_RemoveElement(),
 
                 ProblemCatalog.P28_FindIndexFirstOccurrenceString => new P28_FindIndexFirstOccurrenceString(),

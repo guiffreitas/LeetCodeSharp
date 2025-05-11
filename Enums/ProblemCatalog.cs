@@ -4,6 +4,7 @@
     {
         P1_TwoSum,
         P11_ContainerWithMostWater,
+        P15_ThreeSum,
         P27_RemoveElement,
         P28_FindIndexFirstOccurrenceString,
         P68_TextJustification,
